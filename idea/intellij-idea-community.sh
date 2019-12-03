@@ -6,6 +6,9 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 else
 
+    # What distribution
+    lsb_dist="$(. /etc/os-release && echo "$ID")"
+
     echo -e "\n Install dependencies\n"
 
     # Fedora
