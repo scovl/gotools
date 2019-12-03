@@ -8,4 +8,7 @@ curl -s https://raw.githubusercontent.com/lobocode/gotools/master/goinstall/goin
 sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/idea/intellij-idea-community.sh | bash
 ```
 
-
+#### How to install and upgrade GitKraken?
+```bash
+sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/gitkraken/gitkraken-install.sh | bash
+```
