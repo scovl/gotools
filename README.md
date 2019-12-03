@@ -5,7 +5,7 @@ curl -s https://raw.githubusercontent.com/lobocode/gotools/master/goinstall/goin
 
 #### How to install and upgrade Intellij Idea Community?
 ```bash
-curl -s https://raw.githubusercontent.com/lobocode/gotools/master/idea/intellij-idea-community.sh | bash
+sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/idea/intellij-idea-community.sh | bash
 ```
 
 
