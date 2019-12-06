@@ -12,3 +12,8 @@ sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/idea/inte
 ```bash
 sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/gitkraken/gitkraken-install.sh | bash
 ```
+
+#### How to install and upgrade Terraform?
+```bash
+sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/terraform/terraform-install.sh | bashh
+```
