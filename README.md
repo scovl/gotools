@@ -5,15 +5,15 @@ curl -s https://raw.githubusercontent.com/lobocode/gotools/master/goinstall/goin
 
 #### How to install and upgrade Intellij Idea Community?
 ```bash
-sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/idea/intellij-idea-community.sh | bash
+curl -s https://raw.githubusercontent.com/lobocode/gotools/master/idea/intellij-idea-community.sh | sudo bash
 ```
 
 #### How to install and upgrade GitKraken?
 ```bash
-sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/gitkraken/gitkraken-install.sh | bash
+curl -s https://raw.githubusercontent.com/lobocode/gotools/master/gitkraken/gitkraken-install.sh | sudo bash
 ```
 
 #### How to install and upgrade Terraform?
 ```bash
-sudo curl -s https://raw.githubusercontent.com/lobocode/gotools/master/terraform/terraform-install.sh | bash
+curl -s https://raw.githubusercontent.com/lobocode/gotools/master/terraform/terraform-install.sh | sudo bash
 ```
