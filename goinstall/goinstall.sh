@@ -2,7 +2,7 @@
 
 # Download latest Golang release for AMD64
 
-set -euf -o pipefail
+#set -euf -o pipefail
 
 #Download Latest Go
 echo -e "\n Finding latest version of Go for AMD64... \n"
