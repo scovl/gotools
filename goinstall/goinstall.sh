@@ -1,10 +1,5 @@
 #! /bin/bash
-
-# Download latest Golang release for AMD64
-
-#set -euf -o pipefail
-
-#Download Latest Go
+# Automatic download and install latest Golang release for AMD64
 echo -e "\n Finding latest version of Go for AMD64... \n"
 _GOurl="$(wget -qO- https://golang.org/dl/ | grep -oP 'https:\/\/dl\.google\.com\/go\/go([0-9\.]+)\.linux-amd64\.tar\.gz' | head -n 1 )"
 latest="$(echo $_GOurl | grep -oP 'go[0-9\.]+' | grep -oP '[0-9\.]+' | head -c -2 )"
