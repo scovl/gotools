@@ -18,9 +18,9 @@ sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf go"${latest}".linux-amd64.tar.gz
 mkdir -p ~/go/{bin,pkg,src}
 echo -e "\nSetting up GOPATH \n"
-echo -e "\nexport GOPATH=~/go \n" >> ~/.bashrc && source ~/.bashrc
+echo -e "\nexport GOPATH=~/go \nexport GOROOT=/usr/local/go\n" >> ~/.bashrc && source ~/.bashrc
 echo -e "\nSetting PATH to include golang binaries \n"
-echo -e "\nexport PATH='$PATH':/usr/local/go/bin:$GOPATH/bin \n" >> ~/.bashrc && source ~/.bashrc
+echo -e "\nexport PATH='$PATH':/usr/local/go/bin:$GOPATH/bin \n" >> ~/.bashrc && source ~/.bashrc 
 echo -e "\nInstalling dep for dependency management \n"
 go get -u github.com/golang/dep/cmd/dep
 
