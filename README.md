@@ -9,3 +9,9 @@ curl -s https://raw.githubusercontent.com/lobocode/gotools/master/goinstall/goin
 ```bash
 curl -s https://raw.githubusercontent.com/lobocode/gotools/master/terraform/terraform-install.sh | sudo bash
 ```
+
+#### How to install Godir?
+```bash
+curl -s https://raw.githubusercontent.com/lobocode/gotools/master/godir/install.sh | sudo bash
+```
+
